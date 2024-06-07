@@ -1,49 +1,46 @@
-:root{
-    --blue-900: #0F52BA;
-    --white: #FFFFFF;
-}
-
-body{
-    margin: 0px 0px;
-    
-}
-
-.header{
+:root {
+    --blue-900: #0f52ba;
+    --white: #ffffff;
+    --font-main: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-main);
+  }
+  
+  .header {
     background-color: var(--blue-900);
-    width: 1440px;
-    height: 101px;
     width: 100%;
+    height: 101px;
     display: flex;
     align-items: center;
-    padding: 0px 50px;
-    font-family: Montserrat;
-}
-
-#name{
-    
+    padding: 0 50px;
+  }
+  
+  #name {
     line-height: 19px;
     align-items: center;
-}
-
-
-#MKS{
+  }
+  
+  #MKS {
     font-size: 40px;
     font-weight: 600;
     color: var(--white);
-}
-
-span{
-    font-size: 20px;
-    font-weight: 300;
-    color: var(--white);
-    padding-left: 10px;
-}
-
-.botao{
+  
+    span {
+      font-size: 20px;
+      font-weight: 300;
+      color: var(--white);
+      padding-left: 10px;
+    }
+  }
+  
+  .botao {
     font-weight: bold;
     width: 90px;
     height: 45px;
     border-radius: 8px;
     padding: 5px;
-}
-
+  }
+  

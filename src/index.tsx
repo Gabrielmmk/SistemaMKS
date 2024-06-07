@@ -4,13 +4,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Header from './Components/Header/HeaderMain';
+import SectionMain from './Components/Section/SectionMain';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+document.body.style.backgroundColor = '#F9F9F9'; 
 root.render(
   <React.StrictMode>
     <Header />
+    <SectionMain/>
   </React.StrictMode>
 );
 

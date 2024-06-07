@@ -4,7 +4,7 @@ import './HeaderMain.scss';
 const Header = () => {
     return (
         <>
-            <nav className="navbar header">
+            <nav className="navbar header mb-5">
                 <div className="container-fluid" id="name">
                     <a className="navbar-brand" id="MKS">MKS<span>Sistemas</span></a>
                     <form className="d-flex">

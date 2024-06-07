@@ -1,0 +1,85 @@
+:root {
+  --blue-900: #0f52ba;
+  --white: #ffffff;
+  --black-900: #373737;
+  --font-main: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+}
+
+// Mixin para bordas arredondadas
+@mixin rounded($radius: 5px) {
+  border-radius: $radius;
+}
+
+// Estilos para o Card Item
+#CardItem {
+  width: 218px;
+  height: 285px;
+  max-width: 218px;
+  max-height: 285px;
+  background-color: var(--white);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1352);
+  @include rounded(8px);
+
+  // Estilos para a imagem do Card Item
+  img {
+    width: 111px;
+    height: 138px;
+    margin: 15px 50px;
+  }
+  
+  // Estilos para o nome do produto
+  .NameProduct {
+    font-weight: 450;
+    font-size: 16px;
+    margin: 0 0 5px 10px;
+    height: 30px;
+    line-height: 19px;
+  }
+
+  // Estilos para o preço do produto
+  .Price {
+    font-weight: 700;
+    background-color: var(--black-900);
+    color: var(--white);
+    text-align: center;
+    align-content: center;
+    width: 64px;
+    height: 26px;
+    @include rounded;
+    font-size: 12px;
+  }
+
+  // Estilos para a descrição do produto
+  .description {
+    font-weight: 350;
+    font-size: 10px;
+    padding: 0 10px;
+    margin-top: 5px;
+    max-width: 300px;
+    max-height: 35px;
+    overflow: hidden;
+    line-height: 12px;
+  }
+
+  // Estilos para o botão de compra
+  button {
+    @include rounded(0 0 5px 5px);
+    background-color: var(--blue-900);
+    color: var(--white);
+    font-family: var(--font-main);
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+}
+
+.row > * {
+  padding-right: 0;
+}
