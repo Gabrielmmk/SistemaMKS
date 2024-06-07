@@ -1,0 +1,49 @@
+:root{
+    --blue-900: #0F52BA;
+    --white: #FFFFFF;
+}
+
+body{
+    margin: 0px 0px;
+    
+}
+
+.header{
+    background-color: var(--blue-900);
+    width: 1440px;
+    height: 101px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    font-family: Montserrat;
+}
+
+#name{
+    
+    line-height: 19px;
+    align-items: center;
+}
+
+
+#MKS{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+span{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--white);
+    padding-left: 10px;
+}
+
+.botao{
+    font-weight: bold;
+    width: 90px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
