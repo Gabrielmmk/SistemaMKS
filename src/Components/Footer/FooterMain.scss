@@ -1,0 +1,21 @@
+:root {
+  --blue-900: #0f52ba;
+  --white: #ffffff;
+  --black-900: #373737;
+  --font-main: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+}
+
+#Footer {
+  background-color: #EEEEEE;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 450;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
